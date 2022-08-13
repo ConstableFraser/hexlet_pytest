@@ -9,4 +9,4 @@ jobs:
     steps:
     -  name: hexlet_pytest
        run: 
-         make tests
+         make lint
