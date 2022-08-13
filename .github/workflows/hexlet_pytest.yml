@@ -1,0 +1,12 @@
+
+name: Pytest
+
+on: push
+
+jobs:
+  hexlet_pytest:
+    runs-on: ubuntu-latest 
+    steps:
+    -  name: hexlet_pytest
+       run: 
+         poetry run pytest
