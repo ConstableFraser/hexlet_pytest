@@ -10,4 +10,4 @@ jobs:
     -  name: hexlet_pytest
        run:
          pip install poetry
-         make lint
+         make tests
